@@ -35,3 +35,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/daw-backend:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/daw-backend:${{ github.sha }}
+            
